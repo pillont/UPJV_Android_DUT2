@@ -5,6 +5,7 @@
 
     <!-- LIST ACTIVITY-->
     <string name="user_button_text">Utilisateur</string>
+    <string name="menu_button_text">Menu</string>
     <string name="sender_button_text">Envoie</string>
     <string name="interactions_button_text">Intéractions</string>
     <string name="resources_button_text">Resources</string>
@@ -12,6 +13,13 @@
 
     <!-- RESOURCES ACTIVITY-->
     <string name="text_value">mon texte francais est vert !</string>
+
+    <!-- MENU ACTIVITY-->
+    <string name="option0">option0</string>
+    <string name="option1">option1</string>
+    <string name="option2">option2</string>
+    <string name="option3">option3</string>
+    <string name="menu1">Menu1</string>
 
     <!-- INTERACTIONS ACTIVITY-->
     <string name="text_hint">Entre du texte ici !</string>

@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleActivities">
         <activity
+            android:name=".Views.MenuActivity"
+            android:exported="true" />
+        <activity
             android:name=".Views.StoredUserActivity"
             android:exported="true" />
         <activity
             android:name=".Views.LifeCycleActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Views.ListActivity"
             android:exported="true">
@@ -29,10 +32,10 @@
             android:exported="true" />
         <activity
             android:name=".Views.SenderActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Views.InteractionsActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".Views.ResourcesActivity"
             android:exported="true" />

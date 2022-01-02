@@ -19,6 +19,12 @@
             android:text="@string/resources_button_text" />
 
         <Button
+            android:id="@+id/menuActivityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_button_text" />
+
+        <Button
             android:id="@+id/interactionsActivityButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
