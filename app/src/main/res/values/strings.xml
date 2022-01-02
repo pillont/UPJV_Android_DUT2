@@ -1,0 +1,46 @@
+<resources>
+    <!-- GENERAL -->
+    <string name="app_name">SampleActivities</string>
+
+    <!-- LIST ACTIVITY-->
+    <string name="user_button_text">User</string>
+    <string name="sender_button_text">Sender</string>
+    <string name="interactions_button_text">Interactions</string>
+    <string name="resources_button_text">Resources</string>
+    <string name="life_cycle_button_text">Life cycle</string>
+
+    <!-- RESOURCES ACTIVITY-->
+    <string name="text_value">my english text is red</string>
+
+    <!-- INTERACTIONS ACTIVITY-->
+    <string name="text_hint">Tap text here !</string>
+    <string name="save_button_text">Save text</string>
+    <string name="default_button_text">Save default text</string>
+    <string name="empty_text">No text was entered… </string>
+
+    <!-- SENDER/RECEIVER ACTIVITY-->
+    <string name="default_text">something is saved !</string>
+    <string name="saved_text_start">saved : %1$s</string>
+    <string name="empty_text_error_message">Text was empty !</string>
+    <string name="message_hint">Message…</string>
+    <string name="number_hint">Number…</string>
+    <string name="flag_text">Flag</string>
+    <string name="sender_submit">Valid</string>
+
+    <!-- LIFE CYCLE ACTIVITY-->
+    <string name="try_to_pause_message">try to pause the application :)</string>
+    <string name="exit_time_message">application was stop during %1$d second</string>
+    <string name="destroyed_activity_message">application was destroyed</string>
+    <string name="created_activity_message">application was created</string>
+
+    <!-- STORED USER ACTIVITY-->
+    <string name="firstname">FirstName</string>
+    <string name="lastname">LastName</string>
+    <string name="age">Age</string>
+    <string name="storeUserButtonText">Submit</string>
+    <string name="cleanUserButtonText">Clean</string>
+    <string name="user_stored_message">User stored !</string>
+    <string name="user_removed_message">User removed !</string>
+</resources>
+
+

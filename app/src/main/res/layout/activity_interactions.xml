@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.InteractionsActivity">
+
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/savedTextView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+
+            android:text="@string/empty_text"
+            android:textColor="@color/invalid_color"/>
+
+        <Space
+            android:minHeight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/defaultSaveButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+
+            android:text="@string/default_button_text" />
+
+        <Space
+            android:minHeight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editText"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:autofillHints="password"
+            android:inputType="textPassword"
+            android:hint="@string/text_hint"/>
+
+        <Button
+            android:id="@+id/submitButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textAllCaps="false"
+            android:text="@string/save_button_text" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GENERAL -->
+    <string name="app_name">SampleActivities</string>
+
+    <!-- LIST ACTIVITY-->
+    <string name="user_button_text">Utilisateur</string>
+    <string name="sender_button_text">Envoie</string>
+    <string name="interactions_button_text">Intéractions</string>
+    <string name="resources_button_text">Resources</string>
+    <string name="life_cycle_button_text">cycle de vie</string>
+
+    <!-- RESOURCES ACTIVITY-->
+    <string name="text_value">mon texte francais est vert !</string>
+
+    <!-- INTERACTIONS ACTIVITY-->
+    <string name="text_hint">Entre du texte ici !</string>
+    <string name="save_button_text">Sauvegarder</string>
+    <string name="default_button_text">Sauvegarder le texte par défaut</string>
+    <string name="empty_text">Aucun texte n\'est sauvegardé…</string>
+
+    <!-- SENDER/RECEIVER ACTIVITY-->
+    <string name="default_text">Quelque chose est sauvegardé !</string>
+    <string name="saved_text_start">sauvegardé :  %1$s</string>
+    <string name="empty_text_error_message">Le texte est vide :o</string>
+    <string name="message_hint">Message…</string>
+    <string name="number_hint">Nombre…</string>
+    <string name="flag_text">Flag</string>
+    <string name="sender_submit">Valider</string>
+
+    <!-- LIFE CYCLE ACTIVITY-->
+    <string name="try_to_pause_message">try to pause the application :)</string>
+    <string name="exit_time_message">l\'application a été stoppée pendant %1$d seconde</string>
+    <string name="destroyed_activity_message">l\'application a été détruite</string>
+    <string name="created_activity_message">l\'application a été créée</string>
+
+    <!-- STORED USER ACTIVITY-->
+    <string name="firstname">Nom</string>
+    <string name="lastname">Prénom</string>
+    <string name="age">Age</string>
+    <string name="storeUserButtonText">Valider</string>
+    <string name="cleanUserButtonText">Nettoyer</string>
+    <string name="user_stored_message">Utilisateur sauvegardé !</string>
+    <string name="user_removed_message">Utilisateur supprimé !</string>
+</resources>
