@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import fr.tpillon.sampleactivities.R;
@@ -21,9 +22,27 @@ public class ListActivity extends AppCompatActivity {
         Button lifeCycleActivityButton = findViewById(R.id.lifeCycleActivityButton);
         Button userActivityButton = findViewById(R.id.userActivityButton);
 
+        // on passe par une lambda
         resourcesActivityButton.setOnClickListener((view)-> showResourcesActivity());
-        interactionsActivityButton.setOnClickListener((view)-> showInteractionsActivity());
-        senderActivityButton.setOnClickListener((view)-> showSenderActivity());
+
+        // on créer un listener directement dans la méthode en appelant le constructeur
+        interactionsActivityButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                showInteractionsActivity();
+            }
+        });
+
+        //On créé d'abord le listener puis on l'affecte au button qui convient,
+        //cela peut être utile si on souhaite que plusieurs bouton fasse la même chose.
+        View.OnClickListener listener = new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                showSenderActivity();
+            }
+        };
+        senderActivityButton.setOnClickListener(listener);
+
         lifeCycleActivityButton.setOnClickListener((view)-> showLifeCycleActivity());
         userActivityButton.setOnClickListener((view)-> showUserActivity());
     }
