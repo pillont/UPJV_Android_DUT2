@@ -21,6 +21,7 @@ public class ListActivity extends AppCompatActivity {
         Button senderActivityButton = findViewById(R.id.senderActivityButton);
         Button lifeCycleActivityButton = findViewById(R.id.lifeCycleActivityButton);
         Button userActivityButton = findViewById(R.id.userActivityButton);
+        Button menuActivityButton = findViewById(R.id.menuActivityButton);
 
         // on passe par une lambda
         resourcesActivityButton.setOnClickListener((view)-> showResourcesActivity());
@@ -45,6 +46,13 @@ public class ListActivity extends AppCompatActivity {
 
         lifeCycleActivityButton.setOnClickListener((view)-> showLifeCycleActivity());
         userActivityButton.setOnClickListener((view)-> showUserActivity());
+        menuActivityButton.setOnClickListener((view)-> showMenuActivity());
+
+    }
+
+    private void showMenuActivity() {
+        Intent intent = new Intent(this, MenuActivity.class);
+        startActivity(intent);
     }
 
     private void showUserActivity() {
