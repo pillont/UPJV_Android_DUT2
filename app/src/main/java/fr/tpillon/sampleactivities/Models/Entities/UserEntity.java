@@ -5,3 +5,4 @@ public class UserEntity extends  BaseEntity {
     public String lastName;
     public int age;
 }
+

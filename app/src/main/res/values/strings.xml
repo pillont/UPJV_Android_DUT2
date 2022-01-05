@@ -34,6 +34,7 @@
     <string name="number_hint">Number…</string>
     <string name="flag_text">Flag</string>
     <string name="sender_submit">Valid</string>
+    <string name="previous">Previous</string>
 
     <!-- LIFE CYCLE ACTIVITY-->
     <string name="try_to_pause_message">try to pause the application :)</string>
@@ -49,6 +50,8 @@
     <string name="cleanUserButtonText">Clean</string>
     <string name="user_stored_message">User stored !</string>
     <string name="user_removed_message">User removed !</string>
+    <string name="name_error">Missing name</string>
+    <string name="age_error">Age not valid</string>
 </resources>
 
 

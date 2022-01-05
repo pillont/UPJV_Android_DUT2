@@ -35,6 +35,7 @@
     <string name="number_hint">Nombre…</string>
     <string name="flag_text">Flag</string>
     <string name="sender_submit">Valider</string>
+    <string name="previous">Retour</string>
 
     <!-- LIFE CYCLE ACTIVITY-->
     <string name="try_to_pause_message">try to pause the application :)</string>
@@ -50,4 +51,7 @@
     <string name="cleanUserButtonText">Nettoyer</string>
     <string name="user_stored_message">Utilisateur sauvegardé !</string>
     <string name="user_removed_message">Utilisateur supprimé !</string>
+    <string name="name_error">Nom manquant</string>
+    <string name="age_error">Age pas valide</string>
+
 </resources>

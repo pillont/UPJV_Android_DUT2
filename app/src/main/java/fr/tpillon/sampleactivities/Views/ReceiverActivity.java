@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import fr.tpillon.sampleactivities.R;
@@ -14,6 +15,7 @@ public class ReceiverActivity extends AppCompatActivity {
     private TextView messageTextView;
     private TextView numberTextView;
     private TextView flagTextView;
+    private Button previousButton;
 
     public static final String MESSAGE = "MESSAGE_KEY";
     public static final String NUMBER = "NUMBER_KEY";
@@ -40,5 +42,12 @@ public class ReceiverActivity extends AppCompatActivity {
         this.messageTextView.setText(message);
         this.numberTextView.setText(numberAsString);
         this.flagTextView.setText(flagAsString);
+
+        previousButton = findViewById(R.id.previousButton);
+        previousButton.setOnClickListener(view -> goToPrevious());
+    }
+
+    private void goToPrevious() {
+        finish();
     }
 }

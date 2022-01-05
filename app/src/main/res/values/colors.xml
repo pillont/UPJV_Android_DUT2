@@ -16,6 +16,8 @@
      <color name="valid_color">#00FF00</color>
      <color name="neutral_color">#FF9800</color>
      <color name="invalid_color">#FF0000</color>
+
+     <color name="error_color">#FF0000</color>
 </resources>
 
 
