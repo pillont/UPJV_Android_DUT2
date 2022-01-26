@@ -18,8 +18,11 @@ https://meet.google.com/hmo-ytnq-qgq
 
 *Groupe 1*
 
+- https://github.com/pillont/2022_Group1
+
 *Groupe 2*
-- 
+
+- https://github.com/pillont/2022_Group2
 
 *Groupe 3*
 - 
