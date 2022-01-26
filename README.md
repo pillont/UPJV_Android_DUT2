@@ -50,6 +50,7 @@ https://meet.google.com/hmo-ytnq-qgq
     * un texte qui indique le succès **(en vert)**
     * un texte qui indique l'échec **(en rouge)**
     * un bouton **pour au main**
+    * * un bouton **pour valider le resultat**
 
 2. menu de la page de jeu
     * bouton **pour passer à la page des scores**
