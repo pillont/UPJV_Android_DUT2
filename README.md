@@ -34,8 +34,43 @@ https://meet.google.com/hmo-ytnq-qgq
 - 
 
 -------------------------
+
+
 ### Projet : 
-- patience jeunes padawans 
+
+#### Visuel 
+
+1. une page de menu
+    * un bouton **pour aller au jeux**
+    * un bouton **pour aller au score**
+    
+2. une page de jeux
+    * un texte qui affiche l opération
+    * une zone de texte **(qui prend uniquement des nombres)** pour la réponse
+    * un texte qui indique le succès **(en vert)**
+    * un texte qui indique l'échec **(en rouge)**
+    * un bouton **pour au main**
+
+2. menu de la page de jeu
+    * bouton **pour passer à la page des scores**
+    * bouton **pour effacer les scores**
+
+3. une page de scores : 
+    * un texte qui affiche **le nombre d'opérations**
+    * un texte qui affiche **le pourcentage de réussite**
+    * un texte qui affiche **la dernière opération avec le bon résultat**
+    * **un bouton pour retourner à la page précédente**
+
+4. les resources : 
+    * tout est multilangue
+    * les couleurs de textes sont des resources
+
+
+
+#### Logique
+1. les passages d une page à une autre 
+2. 
+    * il y a au moins une resource injectable
 
 --------------------------
 
