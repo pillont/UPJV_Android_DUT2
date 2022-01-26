@@ -10,7 +10,7 @@
 ### Steps TD :
 
 *Groupe 1*
-- 
+- https://meet.google.com/hmo-ytnq-qgq
 
 *Groupe 2*
 - 
