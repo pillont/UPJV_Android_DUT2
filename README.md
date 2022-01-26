@@ -7,10 +7,16 @@
 - [Architecture](https://docs.google.com/presentation/d/1rMoGohrW3HSo2BfWyW0_wNfOc8-I6537ZBZT3v8veL0/edit?usp=sharing)
 
 ----------------------------
+
+### Visio :
+
+https://meet.google.com/hmo-ytnq-qgq
+
+----------------------------
+
 ### Steps TD :
 
 *Groupe 1*
-- https://meet.google.com/hmo-ytnq-qgq
 
 *Groupe 2*
 - 
