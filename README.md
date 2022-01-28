@@ -71,8 +71,7 @@ https://meet.google.com/hmo-ytnq-qgq
     * dans les menus
 
 #### Logique
-2. 
-    * il y a au moins une resource injectable
+TODO
 
 --------------------------
 
