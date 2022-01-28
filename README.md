@@ -66,10 +66,11 @@ https://meet.google.com/hmo-ytnq-qgq
     * tout est multilangue
     * les couleurs de textes sont des resources
 
-
+5. les passages d une page à une autre 
+    * par les boutons
+    * dans les menus
 
 #### Logique
-1. les passages d une page à une autre 
 2. 
     * il y a au moins une resource injectable
 
