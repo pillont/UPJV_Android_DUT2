@@ -70,6 +70,8 @@ https://meet.google.com/hmo-ytnq-qgq
     * par les boutons
     * dans les menus
 
+--------------------------
+
 #### Logique
 
 1. un service qui génère une opération
@@ -80,7 +82,7 @@ https://meet.google.com/hmo-ytnq-qgq
    * au service de génération
    * au service de résolution
 
-5. 
+5. afficher l'opération par une resource paramétrable
 6. affichage des cas d erreurs
 7. affichage si l'utilisateur se trompe
 8. affichage si l'utilisateur a la bonne réponse
@@ -89,6 +91,13 @@ https://meet.google.com/hmo-ytnq-qgq
 --------------------------
 
 #### BDD
+
+1. Passage de la dernière opération d'une activité à l autre 
+2. Sauvegarde de l'opération
+3. Récupération des opérations précédentes pour faire les pourcentages
+4. clean de la base 
+
+
 ### Notation et abscences
 - https://docs.google.com/spreadsheets/d/1u623MSkirGRJgMq-qHhDF0B_5I1A6CoC1gstURwxqOE/edit?usp=sharing
 
