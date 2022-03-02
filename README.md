@@ -71,10 +71,24 @@ https://meet.google.com/hmo-ytnq-qgq
     * dans les menus
 
 #### Logique
-TODO
+
+1. un service qui génère une opération
+2. un model qui est readonly pour contenir l opération
+3. un service de résolution qui vérifie que l utilisateur a le bon résultat ou non
+ 
+4. appel par les activités
+   * au service de génération
+   * au service de résolution
+
+5. 
+6. affichage des cas d erreurs
+7. affichage si l'utilisateur se trompe
+8. affichage si l'utilisateur a la bonne réponse
+
 
 --------------------------
 
+#### BDD
 ### Notation et abscences
 - https://docs.google.com/spreadsheets/d/1u623MSkirGRJgMq-qHhDF0B_5I1A6CoC1gstURwxqOE/edit?usp=sharing
 
