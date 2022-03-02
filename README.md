@@ -24,14 +24,6 @@ https://meet.google.com/hmo-ytnq-qgq
 
 - https://github.com/pillont/2022_Group2
 
-*Groupe 3*
-- 
-
-*Groupe 4*
-- 
-
-*Groupe 5*
-- 
 
 -------------------------
 
