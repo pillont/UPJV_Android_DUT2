@@ -97,6 +97,7 @@ https://meet.google.com/hmo-ytnq-qgq
 3. Récupération des opérations précédentes pour faire les pourcentages
 4. clean de la base 
 
+--------------------------
 
 ### Notation et abscences
 - https://docs.google.com/spreadsheets/d/1u623MSkirGRJgMq-qHhDF0B_5I1A6CoC1gstURwxqOE/edit?usp=sharing
