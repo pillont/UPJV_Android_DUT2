@@ -75,7 +75,7 @@ https://meet.google.com/hmo-ytnq-qgq
    * au service de résolution
 
 5. afficher l'opération par une resource paramétrable
-6. affichage des cas d erreurs : 
+6. affichage des cas d erreurs 
    * affichage si l'utilisateur n'a rien rentré
    * affichage si l'utilisateur se trompe
 7. affichage si l'utilisateur a la bonne réponse
