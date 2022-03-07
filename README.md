@@ -66,19 +66,19 @@ https://meet.google.com/hmo-ytnq-qgq
 
 #### Logique
 
-1. un service qui génère une opération
-2. un model qui est readonly pour contenir l opération
-3. un service de résolution qui vérifie que l utilisateur a le bon résultat ou non
+1. **un service** qui génère une opération
+2. **un model** qui est readonly pour contenir l opération
+3. **un service** de résolution qui vérifie que l utilisateur a le bon résultat ou non
  
-4. appel par les activités
+4. appel par **les activités**
    * au service de génération
    * au service de résolution
 
-5. afficher l'opération par une resource paramétrable
+5. afficher l'opération par **une resource paramétrable**
 6. affichage des cas d erreurs 
-   * affichage si l'utilisateur n'a rien rentré
-   * affichage si l'utilisateur se trompe
-7. affichage si l'utilisateur a la bonne réponse
+   * affichage si **l'utilisateur n'a rien rentré**
+   * affichage si **l'utilisateur se trompe**
+7. affichage si **l'utilisateur a la bonne réponse**
 
 
 --------------------------
