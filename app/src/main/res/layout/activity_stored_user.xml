@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:text="@string/age_error"
             android:textColor="@color/error_color"
-            android:visibility="invisible"/>
+            android:visibility="gone"/>
 
         <TextView
             android:id="@+id/nameErrorTextView"

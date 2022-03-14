@@ -18,7 +18,7 @@ import fr.tpillon.sampleactivities.Models.Exceptions.NameMissingException;
 import fr.tpillon.sampleactivities.R;
 
 public class StoredUserActivity extends AppCompatActivity {
-    private UserService userService;
+    private UserService userService = new UserService(this);
     private UserEntity lastUser;
 
     private EditText firstNameEditText;
@@ -34,8 +34,6 @@ public class StoredUserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stored_user);
-
-        userService = new UserService(this);
 
         firstNameEditText = findViewById(R.id.firstNameEditText);
         lastNameEditText = findViewById(R.id.lastNameEditText);
@@ -89,10 +87,19 @@ public class StoredUserActivity extends AppCompatActivity {
         user.firstName = firstNameEditText.getText().toString();
         user.lastName = lastNameEditText.getText().toString();
 
-        String ageStr= ageEditText.getText().toString();
-        user.age = Integer.parseInt(ageStr);
-
+        user.age = getAge();
         return user;
+    }
+
+    private int getAge() {
+        try {
+            //CASE : la valeur est un nombre valide
+            String ageStr = ageEditText.getText().toString();
+            return Integer.parseInt(ageStr);
+        } catch(NumberFormatException ex){
+            // CASE : l input est vide ou invalide
+            return -1;
+        }
     }
 
     private void tryUpsertUser(UserEntity user)
